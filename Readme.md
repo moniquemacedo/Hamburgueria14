@@ -1,0 +1,1 @@
+Site criado para cliente fictício utilizando HTML e CSS. Responsivo.
