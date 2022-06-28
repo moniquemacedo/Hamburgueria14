@@ -434,6 +434,7 @@ input::placeholder, textarea::placeholder, select option{
 
 
 #formulario .button {
+	width: 400px;
     cursor: pointer;
     text-align: center;
     margin: 20px 0 0 0;
