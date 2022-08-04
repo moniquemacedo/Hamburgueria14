@@ -375,7 +375,6 @@ body{
 /* CONTATO */
 
 #corpo{
-	max-width: 1349px;
 	margin: 0 auto;
 }
 
@@ -386,21 +385,11 @@ body{
 
 }
 
-#formulario .direita{
-	float: right;
-	width: 50%
-}
-
-#formulario .esquerda {
-    float: left;
-    width:50%;
- }
-
 #formulario input {
     padding: 12px;
     margin: 15px;
-    width: 90%;
-    height: 62px;
+    width: 70%;
+    height: 52px;
     border: 1px solid #333333;
     background: #ffffff;
     border-radius: 30px;
@@ -410,7 +399,7 @@ body{
  #formulario select {
     padding: 12px;
     margin: 15px;
-    width: 90%;
+    width: 70%;
     height: 62px;
     border: 1px solid #333333;
     background: #ffffff;
@@ -419,8 +408,9 @@ body{
 }
 
 #formulario textarea{
-	width: 90%;
-	height: 263px;
+	margin: 15px;
+	width: 70%;
+	height: 250px;
 	border-radius: 30px;
 	color: #333333;
 	background: #ffffff;
@@ -432,9 +422,8 @@ input::placeholder, textarea::placeholder, select option{
 	color: #333333;
 }
 
-
 #formulario .button {
-	width: 400px;
+	width: 200px;
     cursor: pointer;
     text-align: center;
     margin: 20px 0 0 0;
@@ -474,33 +463,24 @@ form::after, form::before{
 }
 
 @media(min-width: 540px) and (max-width: 980px){
-	#formulario{
-		float: none;
-	}
+	
 
 	#formulario input, #formulario select{
-		width: 700px;
-		margin-left: -90px;
+		width: 500px;
+		margin-left: -20px;
+		
 	}
 
 	#formulario textarea{
-		width: 700px;
-		margin-left: -90px;
+		width: 500px;
 		margin-top: 15px;
+		
 	}
 
 	#formulario .button{
-		width: 90%;
-		margin-left: -60px;
+		width: 60%;
 		margin-top: 15px;
-	}
-
-	#formulario .direita{
-		float: none;
-	}
-
-	#formulario .esquerda{
-		float: none;
+		margin-bottom: 15px;
 	}
 
 	#corpo h2{
@@ -508,31 +488,81 @@ form::after, form::before{
 	}
 
 }
+
+@media(min-width: 540px) and (max-width: 980px){
+	#formulario input, #formulario select{
+		width: 500px;
+		margin-left: -10px;
+	}
+
+	#formulario textarea{
+		width: 500px;
+		margin-top: 15px;
+		margin-left: -10px;
+	}
+
+	#formulario .button{
+		width: 60%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#corpo h2{
+		font-size: 50px;
+	}
+
+}
+
 
 @media (max-width: 739px){
+	#formulario{
+		margin: 10px auto;
+	}
+
 	#formulario input, #formulario select{
-		width:270px;
-		margin-left: -105px
+		width: 250px;
+		margin-left: 15px;
 	}
 
 	#formulario textarea{
-		width: 270px;
-		margin-left: -105px;
+		width: 250px;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+
+	#formulario .button{
+		width: 150px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+
+o	}
+
+	#corpo h2{
+		font-size: 50px;
+	}
+
+}
+
+
+@media(min-width: 300px) and (max-width: 700px){
+	#formulario{
+		margin: 10px auto;
+	}
+
+	#formulario input, #formulario select{
+		width: 250px;
+	}
+
+	#formulario textarea{
+		width: 250px;
 		margin-top: 15px;
 	}
 
 	#formulario .button{
 		width: 150px;
-		margin-left: -50px;
 		margin-top: 15px;
-	}
-
-	#formulario .direita{
-		float: none;
-	}
-
-	#formulario .esquerda{
-		float: none;
+		margin: 0 auto;
+		margin-bottom: 15px;
 	}
 
 	#corpo h2{
@@ -542,30 +572,5 @@ form::after, form::before{
 }
 
 
-@media(min-width: 712px) and (max-width: 1038px){
-	#formulario input, #formulario select{
-		width:600px;
-		margin-left: -105px
-	}
-
-	#formulario textarea{
-		width: 600px;
-		margin-left: -105px;
-		margin-top: 15px;
-	}
-
-	#formulario .button{
-		width: 150px;
-		margin-left: -50px;
-		margin-top: 15px;
-	}
-
-	#formulario .direita{
-		float: none;
-	}
-
-	#formulario .esquerda{
-		float: none;
-	}
 
 
